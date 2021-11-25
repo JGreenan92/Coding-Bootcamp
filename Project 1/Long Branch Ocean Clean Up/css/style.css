@@ -59,3 +59,22 @@ form {
   font-size: 1.5em;
   margin-top: 3em;
 }
+
+.Dirty-Beach {
+  height: 15em;
+  width: 30em;
+  margin: 5em;
+}
+
+.Recycle {
+  height: 15em;
+  width: 15em;
+}
+
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4rem;
+  border-style: solid;
+  border-color: rgb(42, 111, 238);
+}
