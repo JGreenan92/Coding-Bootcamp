@@ -4,77 +4,105 @@
     font-family: "Calibri";
     color: #337ab7;
   }
-}
 
-.nav-pills {
-  background-color: rgb(215, 245, 250);
-  font-size: 1.5em;
-  font-family: "Calibri";
-  font-weight: bold;
-}
+  .body-index {
+    background-color: rgb(215, 245, 250);
+  }
 
-main {
-  padding: 2rem;
-}
+  .body-about,
+  .body-register {
+    background-image: url("/img/Ocean Background.jpeg");
+  }
 
-article {
-  background-color: rgb(140, 208, 240);
-  padding: 4rem;
-  margin: 2em;
-  border-style: solid;
-  border-color: rgb(42, 111, 238);
-}
+  .nav-pills {
+    background-color: rgb(215, 245, 250);
+    font-size: 1.5em;
+    font-family: "Calibri";
+    font-weight: bold;
+  }
 
-.index-article {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 3rem;
-}
+  main {
+    padding: 2rem;
+    margin: 1em;
+  }
 
-.about-article {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 4rem;
-  margin-top: 10em;
-}
+  article {
+    background-color: rgb(140, 208, 240);
+    padding: 4rem;
+    margin: 2em;
+    border-style: solid;
+    border-color: rgb(42, 111, 238);
+  }
 
-p {
-  font-size: 1.5em;
-}
+  .index-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
+  }
 
-h2 {
-  font-weight: bold;
-  text-align: center;
-}
+  .about-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: rgb(42, 111, 238) solid 5px;
+    border-style: solid;
+    background-color: rgb(215, 245, 250);
+    margin: 4em;
+  }
 
-h1 {
-  font-weight: bold;
-  text-align: center;
-  padding: 1.5em;
-}
+  p {
+    font-size: 1.5em;
+  }
 
-form {
-  text-align: center;
-  padding: 1em;
-  font-size: 1.5em;
-  margin-top: 3em;
-}
+  h2 {
+    font-weight: bold;
+    text-align: center;
+  }
 
-.Dirty-Beach {
-  height: 15em;
-  width: 30em;
-  margin: 5em;
-}
+  h1 {
+    font-weight: bold;
+    text-align: center;
+    padding: 1.5em;
+  }
 
-.Recycle {
-  height: 15em;
-  width: 15em;
-}
+  form {
+    text-align: center;
+    padding: 1em;
+    font-size: 1.75em;
+    margin-top: 3em;
+    font-weight: bold;
+  }
 
-div {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 4rem;
-  border-style: solid;
-  border-color: rgb(42, 111, 238);
+  input {
+    border-width: thick;
+  }
+
+  .main-register {
+    border: rgb(42, 111, 238) solid 5px;
+    border-style: solid;
+    background-color: rgb(215, 245, 250);
+    margin: 3em;
+  }
+
+  .Dirty-Beach {
+    height: 15em;
+    width: 20em;
+    margin-top: 1em;
+  }
+
+  .Recycle {
+    height: 15em;
+    width: 15em;
+    margin-top: 1em;
+  }
+
+  .about-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+  }
+
+  .about-img {
+    border: rgb(42, 111, 238) solid 5px;
+  }
 }
