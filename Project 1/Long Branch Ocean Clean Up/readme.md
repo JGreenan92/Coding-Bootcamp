@@ -15,3 +15,8 @@ Add a section in form with Clean Up dates
 Add area previous member comments
 Add details about how ocean cleanup can benefit your volunteer portfolio for College, etc.
 
+User Stories
+1. College Student looking for local volunteer work to assist with College application
+2. Local sustainability and pollution activist that is looking to assit with cleaning up pollution
+3. Local political figures who want to create positive activies that benefit the community and local wildlife
+4. Local community dwellers who just want a cleaner beach for recreational activities
